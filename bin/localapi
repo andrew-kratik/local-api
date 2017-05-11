@@ -15,6 +15,7 @@ program
 program
     .command('run <ramlPath>')
     .option('-p, --port <port>', 'change default port')
+    .option('--cors', 'Enable CORS for all origins')
     .option('--no-examples', 'disable template-based generation of examples, use predefined examples')
     .option('-d, --details', 'show details')
     .option('--no-examples', 'disable examples generation')
