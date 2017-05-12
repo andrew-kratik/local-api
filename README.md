@@ -7,6 +7,7 @@ npm install -g windows-build-tools
 ```
 Building and linking of LocalAPI with CORS support:
 ```
+cd local-api-with-cors
 npm install
 npm link
 ```
